@@ -1,0 +1,37 @@
+{
+  "name": "chapter-one-cafe-ordering",
+  "version": "1.0.0",
+  "description": "Chapter One Cafe - Smart QR Ordering & Kitchen System",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "app": "electron desktop/main.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "build": "npm --prefix client run build",
+    "test": "node tests/verify_system.js"
+  },
+  "keywords": [
+    "qr-ordering",
+    "restaurant",
+    "cafe",
+    "pos",
+    "kitchen-display",
+    "whatsapp-ordering"
+  ],
+  "author": "Chapter One Cafe",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "electron": "^45.4.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Chapter One Cafe",
+  "short_name": "Chapter One",
+  "description": "Smart QR Ordering & Kitchen System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf9f6",
+  "theme_color": "#2f1e19",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
